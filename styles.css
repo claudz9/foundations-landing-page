@@ -25,6 +25,7 @@ body{
 }
 .header-container{
     background-color: #1F2937;
+    padding-bottom: 40px;
 }
 .header-logo{
     width: 50px;
@@ -34,19 +35,29 @@ body{
     color: white;
     text-decoration: none;
 }
-.header-text{
+.hero-content{
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 40px 0;
+}
+.header-text{
+    display: flex;
     flex-direction: column;
-    margin: 10px;
-   
+    align-items: flex-start;
+    margin: 10px 0;
+    flex: 1;
 }
 h1{
     font-size: 48px;
     font-weight: 900;
     color: white;
+    margin: 0 0 10px;
 }
 .hero-text{
     color: #e5e7eb;
+    margin: 0 0 20px;
 }
 .button{
     background-color: #3B82F6;
@@ -57,4 +68,71 @@ h1{
     border: 0;
     font-size: 16px;
     cursor: pointer;
+}
+.hero-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.hero-image{
+    width: min(100%, 400px);
+    height: auto;
+    display: block;
+}
+.second-container{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+.second-container{
+    margin: 100px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: -50px;
+}
+.card-container{
+    display: flex;
+justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image-card{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid #3882f6;
+}
+.card-subtext{
+    text-align: center;
+    margin-top: -15px;
+    color: darkslategrey;
+}
+.quote-section{
+    background-color: #1F2937;
+    font-color: white;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 900;
+}
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.fourth-container{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
 }
