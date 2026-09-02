@@ -5,3 +5,6 @@ Creating a webpage from a TOP provided design, with the outmost terrified though
 ## Basic structure
 
 I now have a bit of confidence after first few steps into the project and can say its feels GREAT to have that problem solving capability when taking the overwelming project and disecting it into smaller chunks and accomplishing the few things.
+
+## completed simple landing page
+ganined more confidence with the commplete simple page that i made XD, now i can improve with better quality on my landing page css.
